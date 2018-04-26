@@ -1,0 +1,97 @@
+{"frames": {
+
+"bg.png":
+{
+	"frame": {"x":0,"y":256,"w":667,"h":375},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":667,"h":375},
+	"sourceSize": {"w":667,"h":375},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"button1.png":
+{
+	"frame": {"x":198,"y":0,"w":485,"h":152},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":485,"h":152},
+	"sourceSize": {"w":485,"h":152},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"button2.png":
+{
+	"frame": {"x":683,"y":0,"w":230,"h":211},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":230,"h":211},
+	"sourceSize": {"w":230,"h":211},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"check_box_group.png":
+{
+	"frame": {"x":42,"y":0,"w":28,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":84},
+	"sourceSize": {"w":28,"h":84},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"creat.png":
+{
+	"frame": {"x":98,"y":0,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"icon1.png":
+{
+	"frame": {"x":913,"y":0,"w":512,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":256},
+	"sourceSize": {"w":512,"h":256},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"icon2.png":
+{
+	"frame": {"x":1691,"y":256,"w":128,"h":1024},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":1024},
+	"sourceSize": {"w":128,"h":1024},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"icon3.png":
+{
+	"frame": {"x":667,"y":256,"w":1024,"h":863},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1024,"h":863},
+	"sourceSize": {"w":1024,"h":863},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"icon4.png":
+{
+	"frame": {"x":0,"y":0,"w":42,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":42,"h":64},
+	"sourceSize": {"w":42,"h":64},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"radio_group.png":
+{
+	"frame": {"x":70,"y":0,"w":28,"h":86},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":86},
+	"sourceSize": {"w":28,"h":86},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+        "image": "create_room.png",
+        "prefix": "create_room/"
+    }
+}
