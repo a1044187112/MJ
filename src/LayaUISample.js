@@ -12,6 +12,8 @@ var INIT = {
         cardImgList = [];
     },
     
+    
+
 
     init : function(){
         INIT.data();
@@ -38,29 +40,6 @@ var INIT = {
     loop : function (){
         // var imgList = InitImgElement.init(); // 加载图片数据 
 
-        selfCardList = [   // 自己牌数组
-            {"id":1,"selected":false},
-            {"id":2,"selected":true},
-            {"id":3,"selected":false},
-            {"id":4,"selected":false},
-            {"id":5,"selected":false},
-            {"id":6,"selected":false},
-            {"id":7,"selected":true},
-            {"id":8,"selected":true},
-            {"id":9,"selected":false},
-            {"id":10,"selected":true},
-            {"id":11,"selected":false},
-            {"id":12,"selected":true},
-            {"id":13,"selected":false},
-            {"id":14,"selected":false},
-            {"id":15,"selected":false},
-            {"id":16,"selected":false},
-            {"id":17,"selected":false},
-            {"id":18,"selected":false},
-            {"id":19,"selected":false},
-            {"id":20,"selected":false},
-        ];
-        playerHidCardArr = [1,2,3,4,5,6];
         INIT.loadbg();
 		 
     },
@@ -69,6 +48,9 @@ var INIT = {
        
         beginLoad();
         function beginLoad(){
+            //设置progress Handler的第4个参数为true，根据加载文件个数获取加载进度
+            Laya.loader.load('res/sound/bgm.mp3',null,Laya.Handler.create(this,this.onProgress,null,true));
+            laya.media.SoundManager.playMusic("res/sound/bgm.mp3",0);   //0表示循环播放
             Laya.loader.load("res/atlas/index.atlas", Handler.create(null, onLoaded));
         }
 
